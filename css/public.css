@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+	margin: 0px auto;
+	display:relative;
+	width: 1200px;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	background-color: #333333;
+	height: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #333333;
+    width: 150px;
+    text-align: center;
+    padding-top: 12px;
+}
+nav a:hover{
+    background-color: hotpink;
+    color: #333333;
+    font-size:1.1em;
+}
+footer{
+	margin: 0px auto;
+	position: relative;
+	width: 1200px;
+	height: 30px;
+	background-color: #333333;
+	text-align: center;
+	padding-top: 14px;
+	color: #ffffff;
+}

@@ -1,0 +1,110 @@
+hgroup{
+	position: relative;
+	margin: 0px auto;
+	width: 1200px;
+}
+
+.hg{
+	width: 1200px;
+	height: 435px;
+	margin: 0px auto;
+	position: relative;
+}
+.se{
+	float: left;
+	width: 200px;
+	height: 435px;
+}
+.as{
+	float: right;
+	width: 1000px;
+	height: 435px;
+	background-color: blanchedalmond;
+}
+.jianjie{
+	float: left;
+	width: auto;
+	height: auto;
+}
+h2{
+	padding: 20px 0px 15px 350px;
+}
+.tp{
+	float: right; 
+	padding: 70px 0px 15px 80px;
+}
+aside{
+	float: right;
+	height: 435px;
+	width: 200px;
+}
+article{
+
+}
+.sese{
+	position: relative;
+	margin: 0px auto;
+	width: 1200px;
+	height: 183px;
+}
+section.img {
+    margin-right: 4px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 192px;
+}
+
+section.img:hover {
+    border: 1px solid #777;
+    background-color: darksalmon;
+    color: #000000;
+}
+
+section.img img {
+    width: 100%;
+    height: auto;
+}
+
+section.desc {
+    padding: 15px;
+    text-align: center;
+}
+marquee section.img {
+    margin-right: 4px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 142px;
+}
+
+marquee section.img:hover {
+    border: 1px solid #777;
+    background-color: darksalmon;
+    color: #000000;
+}
+
+marquee section.img img {
+    width: 100%;
+    height: 86px;
+}
+
+marquee section.desc {
+    padding: 15px;
+    text-align: center;
+}
+aside section{
+	width: 180px;
+	height: 43px;
+	color: #000000;
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+aside section a{
+	    text-decoration: none;
+	    color: #000000;
+}
+aside section:hover{
+    color: #333333;
+    background-color: blanchedalmond; 
+}
+p{text-indent:2em;}

@@ -1,0 +1,51 @@
+.hg{
+	width: 1200px;
+	height: 635px;
+	margin: 0px auto;
+	position: relative;
+}
+.se{
+	float: left;
+	width: 840px;
+	height: 635px;
+}
+aside{
+	float: right;
+	width: 360px;
+	height: 635px;
+}
+.ass{
+	width: auto;
+	height: 100px;
+	padding: 13px 5px 11px 0px; 
+}
+.assimg{
+	width: 120px;
+	height: 105px;
+	border: none;
+	padding: 10px; 
+}
+h4{
+	padding-top: 15px;
+}
+.assimgsummary1{
+	font: "微软雅黑";
+	padding: 60px 10px 0px 80px;
+	position: relative;
+	text-indent:2em;
+}
+.assimgsummary2{
+	font: "微软雅黑";
+	padding: 60px 70px 0px 10px;
+	position: relative;
+	text-indent:2em;
+}
+details {  
+  background: pink;  
+  margin-bottom: 10px;   
+}   
+details summary {  
+  cursor: pointer;  
+  padding: 10px;  
+  outline:none;
+}  

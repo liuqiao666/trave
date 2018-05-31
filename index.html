@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>网站主页</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+<header>
+	<embed src="img/flash/header.swf" width="1200px"></embed>
+	<nav>
+	  <a href="index.html">网站主页</a>
+	  <a href="sight.html">凤凰美景</a>
+	  <a href="food.html">凤凰美食</a>
+	  <a href="local.html">风土人情</a>
+	  <a href="fare.html">票价信息</a>
+	  <a href="login.html">登陆</a>
+	  <a href="register.html">注册</a>
+	</nav>
+</header>
+<hgroup class="hg">
+<section class="se">
+	<dl>
+		<dt>
+			<a href="#a" title="">1</a>
+            <a href="#b" title="">2</a>
+            <a href="#c" title="">3</a>
+            <a href="#d" title="">4</a>
+            <a href="#e" title="">5</a>
+            <a href="#f" title="">6</a>
+        </dt>
+	    <dd>
+	    	<img src="img/美景/1.jpg" alt="" id="a" />
+	        <img src="img/美景/2.jpg" alt="" id="b" />
+	        <img src="img/美景/3.jpg" alt="" id="c" />
+	        <img src="img/美景/4.jpg" alt="" id="d" />
+	        <img src="img/美景/5.jpg" alt="" id="e" />
+	        <img src="img/美景/6.jpg" alt="" id="f" />
+	    </dd>
+  	</dl>
+</section>
+<aside>
+	<article>
+		<section style="margin: 10px;">
+		<b>凤凰美景</b>
+		<a href="sight.html"><b style="float: right;">更多>>></b></a>
+		</section>
+		<section class="ass">
+			<img class="assimg" src="img/美景/夜凤凰.jpg" style="float: left;">
+			<summary class="assimgsummary">凤凰古城位于湖南省湘西土家族苗族自治州西南部，
+			国家4A级景区。因背依的青山酷似一只展翅欲飞的凤凰古镇历史悠久，
+			城内紫红沙石砌成的城楼、沿沱江而建的吊脚楼、古色古香的明清古院。
+			</summary>
+		</section>
+		<section class="ass">
+			<img class="assimg" src="img/美景/奇梁洞美景.jpg" style="float: right;">
+			<summary class="assimgsummary">城外有南华山国家森林公园、城下艺术宫殿奇梁洞、
+			建于唐代的黄丝桥古城、举世瞩目的南方长城等风景区。
+			与云南丽江古城、山西平遥古城媲美，还享有“北平遥，南凤凰”的美誉。
+			</summary>
+		</section>
+		<section class="ass">
+			<img class="assimg" src="img/美景/沱江1.jpg" style="float: left;">
+			<summary class="assimgsummary">春秋战国时期，凤凰为“五溪苗蛮之地”，
+			凤凰属楚国疆域。据本县出土的文物考证，当时中原文化已影响到这里。
+			秦一统天下，分天下为36郡，凤凰当时属黔中郡。
+			</summary>
+		</section>
+	</article>
+</aside>
+
+<section class="see">
+<section style="margin: 15px;">
+<b>凤凰美食</b>
+<a href="food.html"><b style="float: right;">更多>>></b></a>
+</section>
+<section>
+  <section class="img">
+    <a href="#">
+      <img src="img/美食/shi1.jpg" width="300" height="200">
+    </a>
+    <section class="desc">血粑鸭子</section>
+  </section>
+</section>
+ 
+<section>
+  <section class="img">
+    <a href="#">
+      <img src="img/美食/shi2.jpg" width="300" height="200">
+    </a>
+    <section class="desc">酸鱼</section>
+  </section>
+</section>
+ 
+<section>
+ <section class="img">
+    <a href="#">
+      <img src="img/美食/shi3.jpg" width="300" height="200">
+    </a>
+    <section class="desc">隔年熏腊肉</section>
+  </section>
+</section>
+ 
+<section>
+  <section class="img">
+    <a href="#">
+      <img src="img/美食/shi4.jpg" width="300" height="200">
+    </a>
+    <section class="desc">板栗炖鸡</section>
+  </section>
+</section>
+
+<section>
+  <section class="img">
+    <a href="#">
+      <img src="img/美食/shi5.jpg" width="300" height="200">
+    </a>
+    <section class="desc">罐罐菌</section>
+  </section>
+</section>
+
+<section>
+  <section class="img">
+    <a href="#">
+      <img src="img/美食/shi6.jpg" width="300" height="200">
+    </a>
+    <section class="desc">糯米腌酸辣子丸子</section>
+  </section>
+</section>
+</section>
+</hgroup>
+
+<footer>2017-2018 @电子科技大学成都学院计算机系 版权所有</footer>
+<script>
+    var newRemindFlag = 1; //启动闪烁
+    /*
+     showRemind:闪烁时显示的东东：如【新提醒】
+     hideRemind:闪烁时隐藏的东东：如【　　　】
+     time:闪烁间隔的时间
+     */
+    function newRemind(showRemind, hideRemind, time) {
+        if (newRemindFlag == 1) {
+            document.title = showRemind;
+            newRemindFlag = 2;
+        } else {
+            document.title = hideRemind;
+            newRemindFlag = 1;
+        }
+        setTimeout("newRemind('" + showRemind + "','" + hideRemind + "'," + time + ")", time);
+    }
+    newRemind('凤凰携手旅程', '快来吧~', 2000)
+</script>
+</body>
+</html>
